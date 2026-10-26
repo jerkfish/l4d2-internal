@@ -19,6 +19,8 @@ different PE hash (`f70a6147...`) because the build is not reproducible
 ## M1 - bootstrap, menu, config
 
 T001 | orig n/a (build harness) | input: clean source tree, VS 2022 14.38 x86 | expected: VR.dll links with 0 errors | rebuilt: 0 errors, only pre-existing overlay.cpp C4244 warning | PASS | tools/build.bat
+Visual Studio build: `tools\build_vs.bat` (or `vs\VR.sln`, Release|Win32) was built and load-tested in the copied tree: 0 errors, only the known C4244 warning, `LOAD_OK`.
+
 T002 | orig n/a (load harness) | input: LoadLibrary(build\Release\VR.dll) | expected: module loads and produces no diagnostic file | rebuilt: LOAD_OK base=0x72420000, no loaded.log | PASS | tools/loadtest.cpp
 T005 | orig 0x9160 sub_10009160 + 0x76A0 sub_100076A0 -> Hook_EndScene + Hook_EngineClient_Slot20 | input: inject, press END/INSERT | expected: one-time scam MessageBox, ImGui menu toggles, menu owns input while open | rebuilt: identical; input capture confirmed as original behavior | PASS | src/hooks.cpp:692, src/hooks.cpp:144
 T012 | orig 0x37B00 sub_10037B00 + 0x10009DBA UI blocks -> Menu_Render | input: open tabs, change values, save/load | expected: same labels/order/defaults, tab mutual exclusion, persisted key quirks | rebuilt: identical; config survives restart | PASS | src/menu.cpp:550

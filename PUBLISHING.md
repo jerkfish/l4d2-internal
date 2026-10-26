@@ -7,6 +7,8 @@ commit was made by the copy operation.
 ## Included
 
 - `src/`, `include/`, `CMakeLists.txt`
+- `vs/` Visual Studio 2022 solution/project (Win32, 14.38 toolset) and
+  `tools/build_vs.bat`
 - `third_party/imgui-1.74`, `third_party/minhook`, `third_party/kiero-1.2.9`
   (the three dependencies the build uses, with their licenses)
 - `tools/` recovery, build and offline-check scripts. In this copy
@@ -49,7 +51,9 @@ commit was made by the copy operation.
 4. Confirm a clean build from the copied tree:
    `tools\build.bat` (VS 2022 14.38 x86). This copied tree was built and
    checked on 2026-10-26: 0 errors, `LOAD_OK`, MD5 vectors and No-Spread scan
-   PASS; `build/` was removed afterward so no artifacts are included.
+   PASS. The Visual Studio solution also built Release|Win32 and Debug|Win32
+   with MSBuild (0 errors, known C4244 warning). `build/` and `vs/bin|obj/`
+   were removed afterward so no artifacts are included.
 5. Confirm no binaries or secrets are staged: `.gitignore` already excludes
    `build/`, `original/`, `staging/`, DLLs, EXEs, IDA databases, caches and
    logs.

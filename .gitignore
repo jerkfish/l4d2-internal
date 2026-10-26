@@ -1,6 +1,8 @@
 # Build outputs
 /build/
 /out/
+/vs/bin/
+/vs/obj/
 *.obj
 *.dll
 *.exe
@@ -18,6 +20,7 @@ loaded.log*
 
 # IDE / caches
 .vs/
+/CMakeSettings.json
 __pycache__/
 *.pyc
 *.user

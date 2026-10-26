@@ -1,0 +1,142 @@
+File: original\target.dll (313344 bytes)
+
+== Headers ==
+Machine:            0x14C (0x14C=i386, 0x8664=x64)
+Magic:              0x10B (0x10B=PE32, 0x20B=PE32+)
+TimeDateStamp:      0x65C63F11 = 2024-02-09 15:04:49 UTC
+Characteristics:    0x2102
+Linker version:     14.38
+Subsystem:          2
+DllCharacteristics: 0x140
+ImageBase:          0x10000000
+SizeOfImage:        0x50000
+EntryPoint RVA:     0x3EAB3
+Sections:
+  .text    VA=    0x1000 vsize=   0x3F6C7 raw=     0x400 rsize=   0x3F800 flags=0x60000020
+  .rdata   VA=   0x41000 vsize=    0x8F68 raw=   0x3FC00 rsize=    0x9000 flags=0x40000040
+  .data    VA=   0x4A000 vsize=    0x1650 raw=   0x48C00 rsize=     0x600 flags=0xC0000040
+  .rsrc    VA=   0x4C000 vsize=     0x580 raw=   0x49200 rsize=     0x600 flags=0x40000040
+  .reloc   VA=   0x4D000 vsize=    0x2F04 raw=   0x49800 rsize=    0x3000 flags=0x42000040
+
+== Data directories ==
+  IMPORT       RVA=   0x48FDC size=0x140
+  RESOURCE     RVA=   0x4C000 size=0x580
+  BASERELOC    RVA=   0x4D000 size=0x2F04
+  DEBUG        RVA=   0x477B0 size=0x70
+  TLS          RVA=   0x47840 size=0x18
+  LOAD_CONFIG  RVA=   0x476F0 size=0x40
+  IAT          RVA=   0x41000 size=0x284
+
+== Exports ==
+  none (no export directory)
+
+== Imports ==
+  KERNEL32.dll (49)
+    GetCurrentProcessId, MultiByteToWideChar, GlobalAlloc, GlobalFree, GlobalLock, GlobalUnlock, QueryPerformanceFrequency, QueryPerformanceCounter, GetProcAddress, GetModuleHandleW, VirtualFree, VirtualAlloc, VirtualQuery, HeapCreate, VirtualProtect, HeapFree, GetCurrentProcess, Thread32Next, Thread32First, GetCurrentThreadId, SuspendThread, ResumeThread, CreateToolhelp32Snapshot, DisableThreadLibraryCalls, HeapReAlloc, CloseHandle, HeapAlloc, GetThreadContext, FlushInstructionCache, SetThreadContext, OpenThread, K32GetModuleInformation, WritePrivateProfileStringA, CreateDirectoryA, GetPrivateProfileStringA, InitializeSListHead, GetSystemTimeAsFileTime, IsDebuggerPresent, IsProcessorFeaturePresent, TerminateProcess, SetUnhandledExceptionFilter, UnhandledExceptionFilter, SleepConditionVariableSRW, WakeAllConditionVariable, AcquireSRWLockExclusive, ReleaseSRWLockExclusive, CreateThread, GetModuleHandleA, Sleep
+  USER32.dll (30)
+    GetAsyncKeyState, FindWindowA, DestroyWindow, DefWindowProcA, CreateWindowExA, UnregisterClassA, RegisterClassExA, LoadCursorA, ScreenToClient, GetCapture, ClientToScreen, IsChild, GetForegroundWindow, SetCapture, SetCursor, EmptyClipboard, GetClipboardData, ReleaseCapture, SetCursorPos, OpenClipboard, CloseClipboard, SetClipboardData, GetWindowThreadProcessId, GetKeyState, GetCursorPos, EnumWindows, MessageBoxA, CallWindowProcA, SetWindowLongA, GetClientRect
+  SHELL32.dll (1)
+    SHGetFolderPathA
+  MSVCP140.dll (3)
+    _Query_perf_counter, ?_Xlength_error@std@@YAXPBD@Z, _Query_perf_frequency
+  IMM32.dll (3)
+    ImmGetContext, ImmReleaseContext, ImmSetCompositionWindow
+  XINPUT1_3.dll (2)
+    #4, #2
+  VCRUNTIME140.dll (14)
+    __current_exception_context, _CxxThrowException, memset, _except_handler4_common, __current_exception, strstr, __std_exception_copy, __std_exception_destroy, __std_terminate, __CxxFrameHandler3, __std_type_info_destroy_list, memchr, memcpy, memmove
+  api-ms-win-crt-stdio-l1-1-0.dll (12)
+    __acrt_iob_func, __stdio_common_vfprintf, __stdio_common_vsprintf, __stdio_common_vsprintf_s, ftell, __stdio_common_vsscanf, fread, _wfopen, fwrite, fclose, fseek, fflush
+  api-ms-win-crt-heap-l1-1-0.dll (4)
+    free, malloc, calloc, _callnewh
+  api-ms-win-crt-utility-l1-1-0.dll (3)
+    srand, rand, qsort
+  api-ms-win-crt-time-l1-1-0.dll (1)
+    _time64
+  api-ms-win-crt-runtime-l1-1-0.dll (12)
+    _register_onexit_function, _execute_onexit_table, _crt_atexit, _cexit, terminate, _initterm, _initterm_e, _seh_filter_dll, _initialize_onexit_table, _configure_narrow_argv, _initialize_narrow_environment, _invalid_parameter_noinfo_noreturn
+  api-ms-win-crt-string-l1-1-0.dll (1)
+    _stricmp
+  api-ms-win-crt-convert-l1-1-0.dll (1)
+    atof
+  api-ms-win-crt-math-l1-1-0.dll (10)
+    _libm_sse2_sqrt_precise, floor, _libm_sse2_sin_precise, _libm_sse2_cos_precise, _libm_sse2_atan_precise, _libm_sse2_acos_precise, _CIatan2, ceil, roundf, _fdclass
+
+== TLS ==
+  AddressOfCallBacks VA=0x100412B4
+  callback dwords: ['0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0', '0x0']
+  -> no TLS callbacks (zero-filled array)
+
+== Load config ==
+  Size:            192
+  SecurityCookie:  0x1004A040
+  SEHandlerTable:  0x100479CC
+  SEHandlerCount:  55
+  GuardFlags:      0x100
+
+== Debug directory ==
+  type=2 size=91 rva=0x47B24
+    PDB: b'C:\\Users\\void\\Documents\\xyz\\cheats\\l4d2 - UC\\compiled\\l4d2-x86.pdb\x00'
+  type=12 size=20 rva=0x47B80
+  type=13 size=804 rva=0x47B94
+  type=14 size=0 rva=0x0
+
+== Version resource ==
+  CompanyName = Tsuda Kageyu
+  FileDescription = MinHook - The Minimalistic API Hook Library for x64/x86
+  FileVersion = 1.3.3.0
+  InternalName = MinHookD
+  LegalCopyright = Copyright (C) 2009-2017 Tsuda Kageyu. All rights reserved.
+  LegalTrademarks = Tsuda Kageyu
+  ProductName = MinHook DLL
+  ProductVersion = 1.3.3.0
+
+== Rich header ==
+  offset=0xF8 key=0x19DDCB5
+  prod/build : count
+    0x93/30729 : 16
+    0x9C/30319 : 2
+    0x9C/21202 : 2
+   0x104/33030 : 10
+   0x103/33030 : 9
+   0x105/33030 : 23
+   0x101/33030 : 4
+   0x101/30795 : 9
+     0x1/0     : 171
+   0x109/33130 : 29
+    0xFF/33130 : 1
+    0x97/0     : 1
+   0x102/33130 : 1
+
+== RTTI type descriptors ==
+  000490EC  .?AVbad_alloc@std@@
+  00049108  .?AVexception@std@@
+  00049124  .?AVbad_array_new_length@std@@
+  0004914C  .?AVtype_info@@
+  00049164  .?AUtracefitlers@@
+
+== PDB / source paths ==
+  0004673C  C:\Users\void\Documents\xyz\cheats\l4d2 - UC\compiled\l4d2-x86.pdb
+
+== UTF-16LE module/interface strings ==
+  00045278  engine.dll
+  00045290  client.dll
+  000452A8  vstdlib.dll
+  000452C0  vguimatsurface.dll
+  000452E8  vgui2.dll
+  000452FC  materialsystem.dll
+  00045324  server.dll
+
+== Entry point ==
+  1003EAB3  55                 push ebp
+  1003EAB4  8bec               mov ebp, esp
+  1003EAB6  837d0c01           cmp dword ptr [ebp + 0xc], 1
+  1003EABA  7505               jne 0x1003eac1
+  1003EABC  e820040000         call 0x1003eee1
+  1003EAC1  ff7510             push dword ptr [ebp + 0x10]
+  1003EAC4  ff750c             push dword ptr [ebp + 0xc]
+  1003EAC7  ff7508             push dword ptr [ebp + 8]
+  1003EACA  e8aefeffff         call 0x1003e97d
+  1003EACF  83c40c             add esp, 0xc
+  1003EAD2  5d                 pop ebp
+  1003EAD3  c20c00             ret 0xc

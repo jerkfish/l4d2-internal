@@ -1,0 +1,166 @@
+100014B0	dllmain.obj	int __stdcall EnumWindows_FindGameWindow(struct HWND__ *,long)	EnumWindows_FindGameWindow	src/dllmain.cpp:57
+100014F0	dllmain.obj	unsigned long __stdcall CheatThread_Main(void *)	CheatThread_Main	src/dllmain.cpp:71
+100015C0	hooks.obj	public: void * * __thiscall VmtHook::entry(int)	entry	include\vmt.h:14
+100017B0	hooks.obj	char __stdcall Hook_EngineClient_Slot20(int)	Hook_EngineClient_Slot20	src/hooks.cpp:144
+100017E0	hooks.obj	void __fastcall Hook_PaintTraverse(void *,void *,unsigned int,bool,bool)	Hook_PaintTraverse	src/hooks.cpp:168
+10001C00	hooks.obj	void __stdcall Hook_DrawModelExecute(void *,void *,void *)	Hook_DrawModelExecute	src/hooks.cpp:322
+10002080	hooks.obj	void __cdecl InstallVmtHooks(void)	InstallVmtHooks	src/hooks.cpp:467
+10002150	hooks.obj	long __stdcall WndProc_Hook(struct HWND__ *,unsigned int,unsigned int,long)	WndProc_Hook	src/hooks.cpp:500
+10002AB0	hooks.obj	long __stdcall Hook_EndScene(struct IDirect3DDevice9 *)	Hook_EndScene	src/hooks.cpp:692
+10003A00	interfaces.obj	void __cdecl InitInterfaces(void)	InitInterfaces	src/interfaces.cpp:18
+10004540	utils.obj	int __cdecl ConsolePrint(char const *,...)	ConsolePrint	src/utils.cpp:68
+10004590	vmt.obj	public: __thiscall VmtHook::VmtHook(void *)	VmtHook	src/vmt.cpp:7
+10007730	menu.obj	void __cdecl Menu_Render(void)	Menu_Render	src/menu.cpp:550
+10007910	netprop.obj	void __cdecl BuildNetpropTables(void)	BuildNetpropTables	src/netprop.cpp:27
+100079C0	netprop.obj	int __cdecl NetpropTableCount(void)	NetpropTableCount	src/netprop.cpp:49
+100079D0	netprop.obj	int __cdecl NetpropOffset(struct RecvTable *,char const *)	NetpropOffset	src/netprop.cpp:54
+10007AB0	netprop.obj	int __cdecl FindNetpropOffset(char const *)	FindNetpropOffset	src/netprop.cpp:80
+10007BA0	netprop.obj	int __cdecl NetpropOffsetInTable(char const *,char const *)	NetpropOffsetInTable	src/netprop.cpp:92
+10007C30	netprop.obj	void * __cdecl GetLocalPlayerEntity(void)	GetLocalPlayerEntity	src/netprop.cpp:97
+10007C60	netprop.obj	void * __cdecl GetClientEntityByIndex(int)	GetClientEntityByIndex	src/netprop.cpp:111
+10007CB0	netprop.obj	void * __cdecl GetClientEntityFromHandle(int)	GetClientEntityFromHandle	src/netprop.cpp:126
+10007D00	netprop.obj	int __cdecl GetHighestEntityIndex(void)	GetHighestEntityIndex	src/netprop.cpp:140
+10007D50	netprop.obj	int __cdecl GetEntityCategory(void *)	GetEntityCategory	src/netprop.cpp:157
+10007E10	netprop.obj	int __cdecl GetEntityClassId(void *)	GetEntityClassId	src/netprop.cpp:199
+10007E60	netprop.obj	int __cdecl GetEntityFlags(void *)	GetEntityFlags	src/netprop.cpp:215
+10007EB0	netprop.obj	int __cdecl GetEntityTeam(void *)	GetEntityTeam	src/netprop.cpp:227
+10007F00	netprop.obj	int __cdecl GetEntitySequence(void *)	GetEntitySequence	src/netprop.cpp:239
+10007F50	netprop.obj	unsigned short __cdecl GetEntitySolidFlags(void *)	GetEntitySolidFlags	src/netprop.cpp:250
+10007FA0	netprop.obj	bool __cdecl IsPlayerChamsEligible(void *)	IsPlayerChamsEligible	src/netprop.cpp:264
+100080D0	netprop.obj	int __cdecl GetEntityHangingFromTongue(void *)	GetEntityHangingFromTongue	src/netprop.cpp:306
+10008120	netprop.obj	float __cdecl GetEntityFallVelocity(void *)	GetEntityFallVelocity	src/netprop.cpp:319
+10008170	netprop.obj	void __cdecl GetEntityPunchAngle(void *,float * const)	GetEntityPunchAngle	src/netprop.cpp:331
+100081E0	netprop.obj	int __cdecl GetEntityLifeState(void *)	GetEntityLifeState	src/netprop.cpp:343
+10008230	netprop.obj	int __cdecl GetEntityHealth(void *)	GetEntityHealth	src/netprop.cpp:356
+10008280	netprop.obj	void __cdecl GetEntityVelocity(void *,float * const)	GetEntityVelocity	src/netprop.cpp:367
+100082F0	netprop.obj	bool __cdecl IsEntityDormant(void *)	IsEntityDormant	src/netprop.cpp:383
+10008330	netprop.obj	int __cdecl GetEntityRenderableModelId(void *)	GetEntityRenderableModelId	src/netprop.cpp:396
+10008370	netprop.obj	void __cdecl GetEntityOrigin(void *,float * const)	GetEntityOrigin	src/netprop.cpp:409
+100083F0	netprop.obj	void __cdecl GetEntityEyePosition(void *,float * const)	GetEntityEyePosition	src/netprop.cpp:425
+100084D0	netprop.obj	void __cdecl GetEntityMins(void *,float * const)	GetEntityMins	src/netprop.cpp:440
+10008540	netprop.obj	void __cdecl GetEntityMaxs(void *,float * const)	GetEntityMaxs	src/netprop.cpp:451
+100085B0	netprop.obj	int __cdecl GetEntityMaxHealth(void *)	GetEntityMaxHealth	src/netprop.cpp:463
+10008600	netprop.obj	float __cdecl GetEntityRage(void *)	GetEntityRage	src/netprop.cpp:475
+10008650	netprop.obj	int __cdecl GetEntityMobRush(void *)	GetEntityMobRush	src/netprop.cpp:487
+100086A0	netprop.obj	int __cdecl GetEntityWeaponId(void *)	GetEntityWeaponId	src/netprop.cpp:499
+100086E0	netprop.obj	void * __cdecl GetLocalActiveWeapon(void *)	GetLocalActiveWeapon	src/netprop.cpp:511
+10008740	netprop.obj	int __cdecl GetEntityIsGhostInt(void *)	GetEntityIsGhostInt	src/netprop.cpp:526
+10008790	netprop.obj	float __cdecl GetEntityWitchRage(void *)	GetEntityWitchRage	src/netprop.cpp:539
+100087E0	netprop.obj	float __cdecl GetEntitySimulationTime(void *)	GetEntitySimulationTime	src/netprop.cpp:551
+10008830	netprop.obj	int __cdecl GetEntityTickBase(void *)	GetEntityTickBase	src/netprop.cpp:563
+10008880	netprop.obj	float __cdecl GetEntityNextPrimaryAttack(void *)	GetEntityNextPrimaryAttack	src/netprop.cpp:575
+100088D0	netprop.obj	char const * __cdecl GetEntityNetworkName(void *)	GetEntityNetworkName	src/netprop.cpp:590
+10008930	netprop.obj	int __cdecl GetEntityIsIncapacitated(void *)	GetEntityIsIncapacitated	src/netprop.cpp:611
+10009130	md5.obj	unsigned int __cdecl MD5_PseudoRandom(unsigned int)	MD5_PseudoRandom	src/md5.cpp:52
+10009560	nospread_scan.obj	bool __cdecl NoSpread_ScanModule(void const *,unsigned int,struct NoSpreadScanResult *)	NoSpread_ScanModule	src/nospread_scan.cpp:81
+10009930	nospread.obj	void __cdecl NoSpread_Rage(struct CUserCmd *,void *,void *)	NoSpread_Rage	src/nospread.cpp:134
+100099B0	nospread.obj	void __cdecl NoSpread_Legit(struct CUserCmd *,void *,void *)	NoSpread_Legit	src/nospread.cpp:138
+10009B50	cheat.obj	float __cdecl sqrt(float)	sqrt	src/cheat.cpp:1560
+10009B70	cheat.obj	bool __cdecl Legit_WeaponAllowed(int)	Legit_WeaponAllowed	src/cheat.cpp:177
+1000D1B0	cheat.obj	void __fastcall Cheat_Update(struct CUserCmd *,void *)	Cheat_Update	src/cheat.cpp:1352
+1000E6D0	cheat.obj	bool __cdecl isfinite<float>(float)	isfinite<float>	unknown
+1000EC80	overlay.obj	bool __cdecl OverlayFontsReady(void)	OverlayFontsReady	src/overlay.cpp:37
+1000EC90	overlay.obj	void __cdecl OverlaySetColor(int,int,int,int)	OverlaySetColor	src/overlay.cpp:39
+1000ECF0	overlay.obj	void __cdecl OverlayFilledRect(int,int,int,int)	OverlayFilledRect	src/overlay.cpp:48
+1000ED50	overlay.obj	void __cdecl OverlayOutlinedRect(int,int,int,int)	OverlayOutlinedRect	src/overlay.cpp:58
+1000EDB0	overlay.obj	void __cdecl OverlayLine(int,int,int,int)	OverlayLine	src/overlay.cpp:68
+1000EE10	overlay.obj	void __cdecl OverlayTextV(int,bool,int,int,int,int,int,int,char const *,char *)	OverlayTextV	src/overlay.cpp:78
+1000EFF0	overlay.obj	void __cdecl OverlayText(int,bool,int,int,int,int,int,int,char const *,...)	OverlayText	src/overlay.cpp:124
+1000F1C0	overlay.obj	void __cdecl DrawBorderRect(int,int,int,int,int,int,int,int)	DrawBorderRect	src/overlay.cpp:133
+1000F3F0	overlay.obj	void __cdecl DrawBar(int,int,int,char const *)	DrawBar	src/overlay.cpp:146
+1000F5A0	overlay.obj	void __cdecl CreateOverlayFonts(void)	CreateOverlayFonts	src/overlay.cpp:166
+1000F6F0	overlay.obj	bool __cdecl IsLocalPlayerAlive(void *)	IsLocalPlayerAlive	src/overlay.cpp:200
+1000F790	overlay.obj	void __cdecl DrawIndicatorsPanel(void *)	DrawIndicatorsPanel	src/overlay.cpp:209
+1000F9A0	esp.obj	float __cdecl atan(float)	atan	src/esp.cpp:258
+1000F9B0	esp.obj	float __cdecl cos(float)	cos	src/esp.cpp:266
+1000F9D0	esp.obj	float __cdecl sin(float)	sin	src/esp.cpp:271
+10011040	esp.obj	void __cdecl DrawEsp(void *)	DrawEsp	src/esp.cpp:418
+10011E00	esp.obj	void __cdecl DrawWeaponSpawnEsp(void *)	DrawWeaponSpawnEsp	src/esp.cpp:607
+10012060	radar.obj	float __cdecl fabs(float)	fabs	src/radar.cpp:65
+10012340	radar.obj	void __cdecl DrawRadar(void *)	DrawRadar	src/radar.cpp:112
+10001620	hooks.obj	bool __cdecl ReadPointer(void const *,void * *)	ReadPointer	src/hooks.cpp:66
+10001650	hooks.obj	void __cdecl EngineSlot20_Process(void *,int,void *,void *)	EngineSlot20_Process	src/hooks.cpp:73
+100018F0	hooks.obj	void * __cdecl CreateRecoveredMaterial(char const *,char const *)	CreateRecoveredMaterial	src/hooks.cpp:224
+10001950	hooks.obj	void __cdecl SetChamMaterialFlag(void *,int,int)	SetChamMaterialFlag	src/hooks.cpp:242
+10001980	hooks.obj	void __cdecl ForceMaterialOverride(void *)	ForceMaterialOverride	src/hooks.cpp:251
+100019D0	hooks.obj	void __cdecl ConfigureChamMaterial(void *,bool,int,int,int)	ConfigureChamMaterial	src/hooks.cpp:264
+10001B20	hooks.obj	void __cdecl ApplyChamPass(void *,bool,int,int,int,void *,void *,void *)	ApplyChamPass	src/hooks.cpp:291
+10001B90	hooks.obj	char const * __cdecl GetRenderModelName(void *)	GetRenderModelName	src/hooks.cpp:302
+10002200	hooks.obj	bool __cdecl EngineSlot26Bool(void)	EngineSlot26Bool	src/hooks.cpp:521
+10002240	hooks.obj	bool __cdecl EngineSlot27Bool(void)	EngineSlot27Bool	src/hooks.cpp:533
+10002280	hooks.obj	bool __cdecl EngineGetScreenSize(int *,int *)	EngineGetScreenSize	src/hooks.cpp:543
+100022E0	hooks.obj	void __cdecl DrawOutlinedText(struct ImDrawList *,float,float,unsigned int,char const *)	DrawOutlinedText	src/hooks.cpp:558
+10002540	hooks.obj	void __cdecl DrawEndSceneOverlay(void)	DrawEndSceneOverlay	src/hooks.cpp:570
+10002710	hooks.obj	void __cdecl DrawIndicators(void)	DrawIndicators	src/hooks.cpp:623
+10002920	hooks.obj	void __cdecl DrawRadarWindow(void)	DrawRadarWindow	src/hooks.cpp:666
+10004380	utils.obj	int __cdecl `anonymous namespace'::HexNibble(char)	HexNibble	src/utils.cpp:11
+10004600	menu.obj	char const * __cdecl `anonymous namespace'::ConfigPath(void)	ConfigPath	src/menu.cpp:20
+10004610	menu.obj	int __cdecl `anonymous namespace'::ReadInt(char const *,int)	ReadInt	src/menu.cpp:27
+10004630	menu.obj	void __cdecl `anonymous namespace'::WriteInt(char const *,int)	WriteInt	src/menu.cpp:31
+10004690	menu.obj	void __cdecl TabButton(int,char const *)	TabButton	src/menu.cpp:48
+10004740	menu.obj	void __cdecl LegitTab(void)	LegitTab	src/menu.cpp:68
+10004A70	menu.obj	char const * __cdecl KeyNameFor(int)	KeyNameFor	src/menu.cpp:148
+10004A90	menu.obj	void __cdecl KeybindButton(int *,bool *)	KeybindButton	src/menu.cpp:46
+10004B30	menu.obj	void __cdecl RageTab(void)	RageTab	src/menu.cpp:186
+10004DE0	menu.obj	void __cdecl VisualsTab(void)	VisualsTab	src/menu.cpp:227
+10005250	menu.obj	void __cdecl MiscTab(void)	MiscTab	src/menu.cpp:280
+100055C0	menu.obj	void __cdecl LoadSettings(void)	LoadSettings	src/menu.cpp:44
+10006300	menu.obj	void __cdecl SaveSettings(void)	SaveSettings	src/menu.cpp:45
+10007890	netprop.obj	struct RecvTable * __cdecl `anonymous namespace'::FindTableByName(char const *)	FindTableByName	src/netprop.cpp:10
+10009100	md5.obj	unsigned int __cdecl `anonymous namespace'::RotateLeft(unsigned int,unsigned int)	RotateLeft	src/md5.cpp:13
+10009110	md5.obj	unsigned int __cdecl `anonymous namespace'::LoadLE32(unsigned char const *)	LoadLE32	src/md5.cpp:17
+100092E0	nospread_scan.obj	unsigned char const * __cdecl `anonymous namespace'::FindSharedRandomFloat(unsigned char const *,unsigned int)	FindSharedRandomFloat	src/nospread_scan.cpp:12
+10009390	nospread_scan.obj	unsigned char const * __cdecl `anonymous namespace'::FindStringReference(unsigned char const *,unsigned char const *,unsigned char const *)	FindStringReference	src/nospread_scan.cpp:27
+10009420	nospread_scan.obj	unsigned char const * __cdecl `anonymous namespace'::FindFunctionStart(unsigned char const *,unsigned char const *)	FindFunctionStart	src/nospread_scan.cpp:47
+100094C0	nospread_scan.obj	unsigned int * __cdecl `anonymous namespace'::FindSeedGlobal(unsigned char const *)	FindSeedGlobal	src/nospread_scan.cpp:64
+100095E0	nospread.obj	unsigned int __cdecl `anonymous namespace'::GetModuleImageSize(struct HINSTANCE__ *)	GetModuleImageSize	src/nospread.cpp:41
+10009680	nospread.obj	struct A0x6c162dc8::ResolverState __cdecl `anonymous namespace'::ResolveClientSharedRandomFloat(void)	ResolveClientSharedRandomFloat	src/nospread.cpp:64
+10009700	nospread.obj	struct A0x6c162dc8::ResolverState const & __cdecl `anonymous namespace'::RageResolver(void)	RageResolver	src/nospread.cpp:82
+10009760	nospread.obj	struct A0x6c162dc8::ResolverState const & __cdecl `anonymous namespace'::LegitResolver(void)	LegitResolver	src/nospread.cpp:87
+100097C0	nospread.obj	void __cdecl `anonymous namespace'::ApplyNoSpread(struct CUserCmd *,void *,void *,struct A0x6c162dc8::ResolverState const &)	ApplyNoSpread	src/nospread.cpp:92
+10009BC0	cheat.obj	void __cdecl `anonymous namespace'::SetConVarInt(char const *,int)	SetConVarInt	src/cheat.cpp:207
+10009C30	cheat.obj	bool __cdecl `anonymous namespace'::TimerElapsedMs(union _LARGE_INTEGER *,unsigned int)	TimerElapsedMs	src/cheat.cpp:230
+10009CC0	cheat.obj	bool __cdecl `anonymous namespace'::LocalWeaponHasClip(void *)	LocalWeaponHasClip	src/cheat.cpp:261
+10009D80	cheat.obj	void __cdecl `anonymous namespace'::AddEngineSlot74Field8(int)	AddEngineSlot74Field8	src/cheat.cpp:288
+10009DE0	cheat.obj	void __cdecl `anonymous namespace'::ExecuteClientCmd(char const *)	ExecuteClientCmd	src/cheat.cpp:306
+10009E30	cheat.obj	bool __cdecl `anonymous namespace'::GetPlayerInfo(int,void *)	GetPlayerInfo	src/cheat.cpp:319
+10009E90	cheat.obj	public: __thiscall `anonymous namespace'::TriggerTraceFilter::TriggerTraceFilter(void *)	TriggerTraceFilter	src/cheat.cpp:381
+10009EB0	cheat.obj	public: virtual bool __thiscall `anonymous namespace'::TriggerTraceFilter::ShouldHitEntity(void *,int)	ShouldHitEntity	src/cheat.cpp:382
+10009EC0	cheat.obj	public: virtual int __thiscall `anonymous namespace'::TriggerTraceFilter::GetTraceType(void)const 	GetTraceType	src/cheat.cpp:385
+10009ED0	cheat.obj	void __cdecl `anonymous namespace'::Legit_Triggerbot(struct CUserCmd *,void *)	Legit_Triggerbot	src/cheat.cpp:395
+1000A230	cheat.obj	bool __cdecl `anonymous namespace'::Legit_TraceVisible(float const * const,float const * const,void *,void *)	Legit_TraceVisible	src/cheat.cpp:483
+1000A440	cheat.obj	void * __cdecl `anonymous namespace'::GetStudiomodel(int)	GetStudiomodel	src/cheat.cpp:532
+1000A490	cheat.obj	bool __cdecl `anonymous namespace'::SetupEntityBones(void *,void *,int,int,float)	SetupEntityBones	src/cheat.cpp:546
+1000A4F0	cheat.obj	int __cdecl `anonymous namespace'::Legit_FindHitboxIndex(void *)	Legit_FindHitboxIndex	src/cheat.cpp:562
+1000A750	cheat.obj	bool __cdecl `anonymous namespace'::Legit_HitboxAimPoint(void *,void *,float * const,int,unsigned char const *)	Legit_HitboxAimPoint	src/cheat.cpp:621
+1000AAA0	cheat.obj	float __cdecl `anonymous namespace'::GetConVarFloat(char const *)	GetConVarFloat	src/cheat.cpp:676
+1000AB30	cheat.obj	bool __cdecl `anonymous namespace'::EngineGetViewAngles(float * const)	EngineGetViewAngles	src/cheat.cpp:694
+1000AB90	cheat.obj	void __cdecl `anonymous namespace'::EngineSetViewAngles(float const * const)	EngineSetViewAngles	src/cheat.cpp:706
+1000ABE0	cheat.obj	float __cdecl `anonymous namespace'::NormalizeAngle180(float)	NormalizeAngle180	src/cheat.cpp:716
+1000AC20	cheat.obj	void __cdecl `anonymous namespace'::Legit_Aimbot(struct CUserCmd *,void *)	Legit_Aimbot	src/cheat.cpp:727
+1000B8C0	cheat.obj	int __cdecl `anonymous namespace'::Rage_FindHitboxIndex(void *)	Rage_FindHitboxIndex	src/cheat.cpp:921
+1000BB20	cheat.obj	bool __cdecl `anonymous namespace'::Rage_HitboxAimPoint(void *,void *,float * const,int,unsigned char const *)	Rage_HitboxAimPoint	src/cheat.cpp:979
+1000BE70	cheat.obj	bool __cdecl `anonymous namespace'::RagePredictionTimerElapsed(void)	RagePredictionTimerElapsed	src/cheat.cpp:1035
+1000BEA0	cheat.obj	void __cdecl `anonymous namespace'::Rage_Aimbot(struct CUserCmd *,void *)	Rage_Aimbot	src/cheat.cpp:1049
+1000CC00	cheat.obj	void __cdecl `anonymous namespace'::Rage_AutoShove(struct CUserCmd *,void *)	Rage_AutoShove	src/cheat.cpp:1277
+1000F9F0	esp.obj	bool __cdecl `anonymous namespace'::IsBboxSane(int const * const)	IsBboxSane	src/esp.cpp:35
+1000FA30	esp.obj	bool __cdecl `anonymous namespace'::GetPlayerInfo(void *,int,struct A0xd7a570a3::PlayerInfoRaw *)	GetPlayerInfo	src/esp.cpp:60
+1000FA80	esp.obj	void __cdecl `anonymous namespace'::GetScreenSize(void *,int *,int *)	GetScreenSize	src/esp.cpp:69
+1000FAE0	esp.obj	int __cdecl `anonymous namespace'::ScreenPosition(float const * const,float * const)	ScreenPosition	src/esp.cpp:82
+1000FB50	esp.obj	float __cdecl `anonymous namespace'::NormalizeAngle(float)	NormalizeAngle	src/esp.cpp:93
+1000FB90	esp.obj	float __cdecl `anonymous namespace'::SseMin8(float,float,float,float,float,float,float,float)	SseMin8	src/esp.cpp:107
+1000FC00	esp.obj	float __cdecl `anonymous namespace'::SseMax8(float,float,float,float,float,float,float,float)	SseMax8	src/esp.cpp:121
+1000FC70	esp.obj	int __cdecl `anonymous namespace'::GetActiveWeaponHandle(void *)	GetActiveWeaponHandle	src/esp.cpp:136
+1000FCC0	esp.obj	int __cdecl `anonymous namespace'::GetWeaponClip(void *)	GetWeaponClip	src/esp.cpp:149
+1000FD10	esp.obj	void __cdecl `anonymous namespace'::GetNetOrigin(void *,float * const)	GetNetOrigin	src/esp.cpp:161
+1000FD80	esp.obj	char const * __cdecl `anonymous namespace'::WeaponNameFromId(int)	WeaponNameFromId	src/esp.cpp:173
+1000FF60	esp.obj	char const * __cdecl `anonymous namespace'::WeaponName(void *)	WeaponName	src/esp.cpp:224
+1000FFC0	esp.obj	bool __cdecl `anonymous namespace'::BuildBoundingBox(void *,void *,int * const)	BuildBoundingBox	src/esp.cpp:232
+100106F0	esp.obj	void __cdecl `anonymous namespace'::DrawBox(int const * const,int,int,int)	DrawBox	src/esp.cpp:311
+100108C0	esp.obj	void __cdecl `anonymous namespace'::DrawHealthBar(int const * const,void *)	DrawHealthBar	src/esp.cpp:323
+10010B10	esp.obj	void __cdecl `anonymous namespace'::DrawFullHealthBar(int const * const)	DrawFullHealthBar	src/esp.cpp:349
+10010C60	esp.obj	void __cdecl `anonymous namespace'::DrawDistance(void *,void *,int,int)	DrawDistance	src/esp.cpp:361
+10010D00	esp.obj	bool __cdecl `anonymous namespace'::DrawLineToCenter(void *)	DrawLineToCenter	src/esp.cpp:376
+10010F20	esp.obj	void __cdecl `anonymous namespace'::DrawWeaponText(void *,int,int)	DrawWeaponText	src/esp.cpp:399
+10012070	radar.obj	void __cdecl `anonymous namespace'::GetViewAngles(float * const)	GetViewAngles	src/radar.cpp:38
+100120D0	radar.obj	void __cdecl `anonymous namespace'::DrawRadarDot(float,float,float,float,float const * const,int,int,int,char const *,int,int)	DrawRadarDot	src/radar.cpp:49

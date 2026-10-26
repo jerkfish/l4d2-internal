@@ -1,0 +1,35 @@
+# Build outputs
+/build/
+/out/
+*.obj
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.map
+*.exp
+*.lib
+*.res
+
+# Local oracle, staging and debug logs (not published)
+/original/
+/staging/
+loaded.log*
+
+# IDE / caches
+.vs/
+__pycache__/
+*.pyc
+*.user
+
+# IDA databases and raw analysis dumps (local-only)
+*.i64
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+/NOTES/ida/*
+!/NOTES/ida/README.md
+!/NOTES/ida/functions.tsv
+!/NOTES/ida/functions_lines.tsv

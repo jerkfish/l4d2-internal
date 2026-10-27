@@ -719,10 +719,10 @@ HRESULT __stdcall Hook_EndScene(IDirect3DDevice9 *pDevice) {
         // in the target from blobs at 0x10047510/0x100475F0/0x10047600/
         // 0x10047640/0x10047650 + the literal at 0x10009723, key (i - 71);
         // verified by decoding the static bytes. "wwww" typo is original.
-        MessageBoxA(nullptr,
-                    "This cheat was released for free on wwww.unknowncheats.com "
-                    "by @space785, if you paid for it you got scammed.",
-                    "L4D2", MB_OK);
+        //MessageBoxA(nullptr,
+        //            "This cheat was released for free on wwww.unknowncheats.com "
+        //            "by @space785, if you paid for it you got scammed.",
+        //            "L4D2", MB_OK);
 
         imguiInitialized = true;
     }

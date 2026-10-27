@@ -1,5 +1,9 @@
 # Reverse-engineered L4D2 Internal by @space785
 
+rip @space785 he is banned, so the dll no longer update. This is my take on his creation, some features are disable since the offsets are dead/the exploit no longer working.
+
+Use Visual Studio to compile, use any injector would work fine, use at your own discretization.
+
 ![alt text](image.png)
 ![alt text](image-1.png)
 
